@@ -60,18 +60,18 @@ The application provides **71 RESTful endpoints** across 10 controllers:
 | 24  | GET    | `/api/v1/cars/typical-mileage/{make}/{model}` | Abdulaziz |
 | 25  | GET    | `/api/v1/cars/numbers/{userId}` | Abdulaziz |
 | 26  | PUT    | `/api/v1/cars/{userId}/enforce-access` | Abdulaziz |
-| 27  | GET    | `/api/v1/maintenances/get` | Faisal |
-| 28  | POST   | `/api/v1/maintenances/add/{carId}` | Faisal |
-| 29  | PUT    | `/api/v1/maintenances/update/{id}` | Faisal |
+| 27  | GET    | `/api/v1/maintenances/get` | Abdulaziz |
+| 28  | POST   | `/api/v1/maintenances/add/{carId}` | Abdulaziz |
+| 29  | PUT    | `/api/v1/maintenances/update/{id}` | Abdulaziz |
 | 30  | DELETE | `/api/v1/maintenances/delete/{id}` | Abdulaziz |
 | 31  | GET    | `/api/v1/maintenances/get/{carId}` | Abdulaziz |
 | 32  | POST   | `/api/v1/maintenances/upload-invoice/{id}` | Faisal |
 | 33  | GET    | `/api/v1/maintenances/download-invoice/{id}` | Faisal |
 | 34  | DELETE | `/api/v1/maintenances/delete-invoice/{id}` | Faisal |
-| 35  | GET    | `/api/v1/reminders/get` | Faisal |
-| 36  | POST   | `/api/v1/reminders/add/{carId}` | Faisal |
-| 37  | PUT    | `/api/v1/reminders/update/{id}` | Faisal |
-| 38  | DELETE | `/api/v1/reminders/delete/{id}` | Faisal |
+| 35  | GET    | `/api/v1/reminders/get` | Abdulaziz |
+| 36  | POST   | `/api/v1/reminders/add/{carId}` | Abdulaziz |
+| 37  | PUT    | `/api/v1/reminders/update/{id}` | Abdulaziz |
+| 38  | DELETE | `/api/v1/reminders/delete/{id}` | Abdulaziz |
 | 39  | GET    | `/api/v1/reminders/get/{carId}` | Faisal |
 | 40  | POST   | `/api/v1/reminders/generate-maintenance/{carId}` | Faisal |
 | 41  | POST   | `/api/v1/payments/card` | Mshari |
@@ -110,14 +110,14 @@ The application provides **71 RESTful endpoints** across 10 controllers:
 
 ## APIs Used
 
-| API                 | Purpose                                               |
-| ------------------- | ----------------------------------------------------- |
-| **OpenAI**          | AI advice, insights, and guidance                     |
-| **Moyasar**         | Payment processing                                    |
-| **Moyasar Webhook** | Payment callbacks and subscription handling           |
-| **WhatsApp**        | Sends WhatsApp written messages                       |
-| **Email**           | Sends email written messages                          |
-| **RAG (FastAPI)**   | Document processing and AI-powered question answering |
+| API                 | Purpose                                               | Contributor|
+| ------------------- | ----------------------------------------------------- |------------|
+| **OpenAI**          | AI advice, insights, and guidance                     |Faisal      |
+| **Moyasar**         | Payment processing                                    |Faisal      |
+| **Moyasar Webhook** | Payment callbacks and subscription handling           |Faisal      |
+| **WhatsApp**        | Sends WhatsApp written messages                       |Abdulaziz   |
+| **Email**           | Sends email written messages                          |Mshari      |
+| **RAG (FastAPI)**   | Document processing and AI-powered question answering |Faisal      |
 
 ---
 
